@@ -13,7 +13,7 @@
                  <div class="col-sm-3">
                     <h4>Links</h4>
                     <ul class="list-unstyled">
-                        <li><a href="rooms-tariff.php">Inicio</a></li>        
+                        <li><a href="index.php">Inicio</a></li>        
                         <li><a href="introduction.php">¿Quiénes Somos?</a></li>
                         <li><a href="gallery.php">Aliados Estratégicos</a></li>
                         <li><a href="tour.php">Audioguías</a></li>

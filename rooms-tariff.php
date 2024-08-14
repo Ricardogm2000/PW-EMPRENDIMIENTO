@@ -2,38 +2,64 @@
 
 <div class="container">
 
-<h2>Rooms & Tariff</h2>
+<h2>Quiénes Somos</h2>
 
-
-<!-- form -->
-
+<!-- Información sobre el equipo/empresa -->
 <div class="row">
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/8.jpg" class="img-responsive"><div class="info"><h3>Luxirious Suites</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.php" class="btn btn-default">Check Details</a></div></div></div>
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/9.jpg" class="img-responsive"><div class="info"><h3>Luxirious Suites</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.php" class="btn btn-default">Check Details</a></div></div></div>
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/10.jpg" class="img-responsive"><div class="info"><h3>Luxirious Suites</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.php" class="btn btn-default">Check Details</a></div></div></div>
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/11.jpg" class="img-responsive"><div class="info"><h3>Luxirious Suites</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.php" class="btn btn-default">Check Details</a></div></div></div>
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/9.jpg" class="img-responsive"><div class="info"><h3>Luxirious Suites</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.php" class="btn btn-default">Check Details</a></div></div></div>
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/8.jpg" class="img-responsive"><div class="info"><h3>Luxirious Suites</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.php" class="btn btn-default">Check Details</a></div></div></div>
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/10.jpg" class="img-responsive"><div class="info"><h3>Luxirious Suites</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.php" class="btn btn-default">Check Details</a></div></div></div>
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/11.jpg" class="img-responsive"><div class="info"><h3>Luxirious Suites</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.php" class="btn btn-default">Check Details</a></div></div></div>
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/9.jpg" class="img-responsive"><div class="info"><h3>Luxirious Suites</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.php" class="btn btn-default">Check Details</a></div></div></div>
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/8.jpg" class="img-responsive"><div class="info"><h3>Luxirious Suites</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.php" class="btn btn-default">Check Details</a></div></div></div>
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/11.jpg" class="img-responsive"><div class="info"><h3>Luxirious Suites</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.php" class="btn btn-default">Check Details</a></div></div></div>
-  <div class="col-sm-6 wowload fadeInUp"><div class="rooms"><img src="images/photos/10.jpg" class="img-responsive"><div class="info"><h3>Luxirious Suites</h3><p> Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</p><a href="room-details.php" class="btn btn-default">Check Details</a></div></div></div>  
+  <div class="col-sm-6 wowload fadeInUp">
+    <div class="rooms">
+      <img src="images/photos/vision.jpeg" class="img-responsive img-long">
+      <div class="info">
+        <h3>Nuestra Visión</h3>
+        <p>
+          Ser la plataforma líder en Ecuador para el año 2040, que enriquezca la experiencia cultural
+          de sus usuarios nacionales e internacionales, facilitando el acceso a información relevante
+          y actualizada sobre museos, eventos y audio guías, contribuyendo al fomento y preservación 
+          del patrimonio cultural del país.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 wowload fadeInUp">
+    <div class="rooms">
+      <img src="images/photos/mision.png" class="img-responsive img-long">
+      <div class="info">
+        <h3>Nuestra Misión</h3>
+        <p>
+          Ofrecer una plataforma accesible y fácil de usar que permita a los residentes,
+          turistas extranjeros y nacionales descubrir y disfrutar de la riqueza cultural de Ecuador. 
+          Proporcionamos audioguías de museos, información detallada sobre eventos cercanos y datos 
+          relevantes sobre el patrimonio cultural, fomentando el interés y la participación en actividades 
+          culturales y educativas.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 wowload fadeInUp">
+    <div class="rooms">
+      <img src="images/photos/profesionales.jpg" class="img-responsive img-long">
+      <div class="info">
+        <h3>Equipo Profesional</h3>
+        <p>Contamos con un equipo altamente capacitado y comprometido con la excelencia. Nos especializamos en crear audioguías innovadoras y educativas para museos, proporcionando a los visitantes una experiencia enriquecedora y memorable.</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="col-sm-6 wowload fadeInUp">
+    <div class="rooms">
+      <img src="images/photos/valores.png" class="img-responsive img-long">
+      <div class="info">
+        <h3>Valores</h3>
+        <p>
+          Integridad, compromiso y excelencia son los valores que guían todas nuestras acciones.
+          Nos esforzamos por mantener la integridad en todas nuestras interacciones, asegurando 
+          transparencia y honestidad.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
-
-                     <div class="text-center">
-                     <ul class="pagination">
-                     <li class="disabled"><a href="#">«</a></li>
-                     <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-                     <li><a href="#">2</a></li>
-                     <li><a href="#">3</a></li>
-                     <li><a href="#">4</a></li>
-                     <li><a href="#">5</a></li>
-                     <li><a href="#">»</a></li>
-                     </ul>
-                     </div>
-
 
 </div>
 <?php include 'footer.php';?>

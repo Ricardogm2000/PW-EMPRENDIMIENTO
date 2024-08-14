@@ -28,7 +28,37 @@ p{margin-bottom: 1em;line-height: 1.5em;}
 .navbar-brand{height: 83px;}
 /*nav*/
 
+.social a {
+    margin-right: 30px; /* Espacio entre los íconos */
+}
 
+.social i {
+    font-size: 54px; /* Tamaño de los íconos */
+}
+
+.facebook-icon {
+    color: #3b5998; /* Color de Facebook */
+}
+
+.instagram-icon {
+    color: #e4405f; /* Color de Instagram */
+}
+
+.twitter-icon {
+    color: #55acee; /* Color de Twitter */
+}
+
+.pinterest-icon {
+    color: #bd081c; /* Color de Pinterest */
+}
+
+.tumblr-icon {
+    color: #35465c; /* Color de Tumblr */
+}
+
+.youtube-icon {
+    color: #cd201f; /* Color de YouTube */
+}
 
 /*SLIDER*/
 .banner {position: relative;color: #fff;}
@@ -72,12 +102,6 @@ footer .subscribe .social a{font-size: 1.5em;margin-right: 0.25em;}
 
 
 
-
-
-
-
-
-
 /*unform*/
 .radio-inline{padding-top: 4px;padding-left: 0;}
 .form-horizontal .radio{padding-top: 3px;}
@@ -106,6 +130,22 @@ div.selector option{ padding: 10px;}
 .rooms{margin-bottom: 2em;}
 .rooms .info{padding: 1.5em;background-color: #E8E7E0;}
 
+/*Dimensión de la imagen*/
+.img-long {
+    height: 255px; /* Ajusta este valor según tus necesidades */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave */
+    width: 600px;
+}
+.img-long:hover {
+    transform: scale(1.1); /* Escala la imagen un 10% al pasar el cursor por encima */
+}
+
+.img-long1 {
+    height: 210px; /* Ajusta este valor según tus necesidades */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave */
+    width: 350px;
+    border-radius: 5px; 
+}
 
 .room-features .amenitites li{margin-bottom: 1em;}
 .room-features .size-price{background-color: #C7C5BB;padding: 2em 0;text-align: center;color: #fff;height: 10.97em;line-height: 3em;}
@@ -171,4 +211,25 @@ body::-webkit-scrollbar {
     footer h4{margin-top: 2em;}
 
     .room-features .size-price{margin-bottom: 2em;}
+}
+
+.row.align-items-center {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos hijos */
+}
+
+.text-item {
+    background-color: #f0f0f0; /* Color de fondo del texto */
+    padding: 15px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espaciado inferior entre elementos */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.img-long1 {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.center-horizontal {
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
 }
