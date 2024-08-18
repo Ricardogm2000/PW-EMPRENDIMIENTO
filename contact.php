@@ -10,6 +10,14 @@
        <div class="row">       	
        	<div class="col-sm-12">
        	<div class="map">
+
+		   <h4> Redes Sociales </h4>
+		<div class="social">
+			<a href="https://www.facebook.com/share/NsiU62AsSWLbPdZa/?mibextid=LQQJ4d" target="_blank"><i class="fa fa-facebook-square facebook-icon" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
+			<a href="https://www.instagram.com/audiotoursec?igsh=MTkzOWR5dXJ1ajVhMg%3D%3D&utm_source=qr" target="_blank"><i class="fa fa-instagram instagram-icon" data-toggle="tooltip" data-placement="top" data-original-title="instagram"></i></a>
+			<a href="https://www.tiktok.com/@audiotours.ecuado?_t=8osenCpdVSA&_r=1"><i class="fa fa-tiktok" data-toggle="tooltip" data-placement="top" data-original-title="tiktok"></i></a>                </div>
+		</div> 
+		<br>
 			<h4>Nuestra Ubicación</h4>	
 			
 		   <iframe 
@@ -28,16 +36,7 @@
 			</p>
 		</div>
 		<br>
-		<h4> Redes Sociales </h4>
-		<div class="social">
-			<a href="https://www.facebook.com/tu-pagina" target="_blank"><i class="fa fa-facebook-square facebook-icon" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
-			<a href="https://www.instagram.com/tu-pagina" target="_blank"><i class="fa fa-instagram instagram-icon" data-toggle="tooltip" data-placement="top" data-original-title="instagram"></i></a>
-			<a href="https://www.twitter.com/tu-pagina" target="_blank"><i class="fa fa-twitter-square twitter-icon" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
-			<a href="https://www.pinterest.com/tu-pagina" target="_blank"><i class="fa fa-pinterest-square pinterest-icon" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
-			<a href="https://www.tumblr.com/tu-pagina" target="_blank"><i class="fa fa-tumblr-square tumblr-icon" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
-			<a href="https://www.youtube.com/tu-pagina" target="_blank"><i class="fa fa-youtube-square youtube-icon" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a>
-		</div>
-		<br>
+		
 
 		<div class="col-sm-6 col-sm-offset-3">
 			<div class="spacer">   		

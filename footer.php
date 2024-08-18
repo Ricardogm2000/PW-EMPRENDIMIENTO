@@ -29,14 +29,9 @@
                     </span>
                     </div>
                     <div class="social">
-                    <a href="#"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
-                    <a href="#"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"></i></a>
-                    <a href="#"><i class="fa fa-pinterest-square" data-toggle="tooltip" data-placement="top" data-original-title="pinterest"></i></a>
-                    <a href="#"><i class="fa fa-tumblr-square" data-toggle="tooltip" data-placement="top" data-original-title="tumblr"></i></a>
-                    <a href="#"><i class="fa fa-youtube-square" data-toggle="tooltip" data-placement="top" data-original-title="youtube"></i></a>
-                    </div>
-                </div>
+                    <a href="https://www.facebook.com/share/NsiU62AsSWLbPdZa/?mibextid=LQQJ4d"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"></i></a>
+                    <a href="https://www.instagram.com/audiotoursec?igsh=MTkzOWR5dXJ1ajVhMg%3D%3D&utm_source=qr"><i class="fa fa-instagram"  data-toggle="tooltip" data-placement="top" data-original-title="instragram"></i></a>
+                    <a href="https://www.tiktok.com/@audiotours.ecuado?_t=8osenCpdVSA&_r=1"><i class="fa fa-tiktok" data-toggle="tooltip" data-placement="top" data-original-title="tiktok"></i></a>                </div>
             </div>
             <!--/.row--> 
         </div>
