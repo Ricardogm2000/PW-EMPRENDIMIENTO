@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>EcuaGuía</title>
+<title>Audio Tours EC</title>
 
 <!-- Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800|Old+Standard+TT' rel='stylesheet' type='text/css'>
@@ -60,7 +60,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img src="images/LOGO ECUA.png" width="80" height="80" alt="holiday crown"></a>
+      <a class="navbar-brand" href="index.php"><img src="images/LOGO ECUA.png" width="70" height="70" alt="holiday crown"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

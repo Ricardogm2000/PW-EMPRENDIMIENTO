@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-5">
-                    <h4>EcuaGuía</h4>
+                    <h4>Audio Tours EC</h4>
                     <p>Información... </p>
                 </div>              
                  

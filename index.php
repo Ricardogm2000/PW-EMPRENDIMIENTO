@@ -9,13 +9,16 @@
     <div class="welcome-message">
         <div class="wrap-info">
             <div class="information">
-                <h1  class="animated fadeInDown">EcuaGuía: Escucha y vive un recorrido inolvidable.</h1>
+                <!-- Imagen del logo agregada aquí -->
+                <img src="images/LOGO ECUA.png" width="140" height="140">
+                <h1  class="animated fadeInDown">Audio Tours Ecuador: Escucha y vive un recorrido inolvidable.</h1>
                 <p class="animated fadeInUp">"Descubre una experiencia única al recorrer un museo con una audioguía detallada en tu idioma nativo."</p>                
             </div>
             <a href="#information" class="arrow-nav scroll wowload fadeInDownBig"><i class="fa fa-angle-down"></i></a>
         </div>
     </div>
 </div>
+
 <!-- banner-->
 
  
@@ -27,8 +30,8 @@
     <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft"><iframe  class="embed-responsive-item" src="//player.vimeo.com/video/55057393?title=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 </div>
 <div class="col-sm-5 col-md-4">
-<h3>EcuaGuía</h3>
-<p>EcuaGuía es una página web que ofrece audioguías detalladas para cada punto del museo en el idioma que elijas, permitiéndote vivir un recorrido único.</p>
+<h3>Audio Tours EC</h3>
+<p>Audio Tours EC es una página web que ofrece audioguías detalladas para cada punto del museo en el idioma que elijas, permitiéndote vivir un recorrido único.</p>
 </div>
 </div>  
 </div>
