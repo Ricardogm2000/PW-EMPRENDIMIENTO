@@ -27,7 +27,7 @@
 <div class="container">
 <div class="row">
 <div class="col-sm-7 col-md-8">
-    <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft"><iframe  class="embed-responsive-item" src="//player.vimeo.com/video/55057393?title=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+    <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft"><iframe  class="embed-responsive-item" src="images/VideoPrincipal.mp4" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 </div>
 <div class="col-sm-5 col-md-4">
 <h3>Audio Tours EC</h3>

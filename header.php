@@ -72,9 +72,37 @@
         <li><a href="introduction.php">Aliados Estratégicos</a></li>
         <li><a href="gallery.php">Audioguías</a></li>
         <li><a href="contact.php">Contacto</a></li>
+        <li><a href="cart.php">
+        <i class="fa fa-shopping-cart"></i>
+        <span id="cart-count" class="badge">0</span>
+      </a></li>
       </ul>
     </div><!-- Wnavbar-collapse -->
   </div><!-- container-fluid -->
 </nav>
 <!-- header -->
 
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Inicializa el contador del carrito desde localStorage
+    let cartCount = parseInt(localStorage.getItem('cartCount')) || 0; 
+
+    // Función para actualizar el contador del carrito
+    function updateCartCount(newCount) {
+        cartCount = newCount;
+        const cartCountElement = document.getElementById('cart-count');
+        if (cartCountElement) {
+            cartCountElement.textContent = cartCount;
+
+            // Añade animación para el contador
+            cartCountElement.classList.add('animate');
+            setTimeout(() => {
+                cartCountElement.classList.remove('animate');
+            }, 1000); // Duración de la animación
+        }
+    }
+
+    // Inicializa el contador en el encabezado
+    updateCartCount(cartCount);
+});
+</script>
