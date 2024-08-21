@@ -13,10 +13,10 @@
                          <h3>Contacto</h3>
                          <p>MUSEO DE LA CIUDAD</p>
                          <p><strong>Dirección:</strong> Calle del Museo, 123, Ciudad, País</p>
-                         <p><strong>Correo Electrónico:</strong> contacto@museo.com</p>
-                         <p><strong>Teléfono:</strong> +123 456 7890</p>
-                         <p><strong>Web:</strong> https://quitocultura.com/team-member/museo-de-la-ciudad/</p>
-                     </div>
+                         <p><strong>Correo Electrónico:</strong> quitocultura@gmail.com</p>
+                         <p><strong>Teléfono:</strong> 095 456 7890</p>
+                         <p><strong>Web:</strong> <a href="https://quitocultura.com/team-member/museo-de-la-ciudad/" target="_blank">https://quitocultura.com/team-member/museo-de-la-ciudad/</a></p>
+                         </div>
                   </div>
                   <br>
                   <div class="row align-items-center center-horizontal">
@@ -24,10 +24,10 @@
                          <h3>Contacto</h3>
                          <p>MUSEO DEL CARMEN ALTO</p>
                          <p><strong>Dirección:</strong> Calle del Museo, 123, Ciudad, País</p>
-                         <p><strong>Correo Electrónico:</strong> contacto@museo.com</p>
-                         <p><strong>Teléfono:</strong> +123 456 7890</p>
-                         <p><strong>Web:</strong> https://muna.culturaypatrimonio.gob.ec/</p>
-                     </div>
+                         <p><strong>Correo Electrónico:</strong> culturaypatrimonio@gmail.com</p>
+                         <p><strong>Teléfono:</strong> 099 456 7890</p>
+                         <p><strong>Web:</strong> <a href="https://muna.culturaypatrimonio.gob.ec/" target="_blank">https://muna.culturaypatrimonio.gob.ec/</a></p>
+                         </div>
                       <div class="col-sm-4 wowload fadeInUp">
                           <a href="images/photos/MUSEOCARMEN.jpeg" title="Foods" class="gallery-image" data-gallery>
                               <img src="images/photos/MUSEOCARMEN.jpeg" class="img-long1">
@@ -45,10 +45,10 @@
                          <h3>Contacto</h3>
                          <p>MUSEO DE SAN FRANCISCO</p>
                          <p><strong>Dirección:</strong> Calle del Museo, 123, Ciudad, País</p>
-                         <p><strong>Correo Electrónico:</strong> contacto@museo.com</p>
-                         <p><strong>Teléfono:</strong> +123 456 7890</p>
-                         <p><strong>Web:</strong> https://museosanfranciscodequito.com/</p>
-                     </div>
+                         <p><strong>Correo Electrónico:</strong> museosanfranciscodequito@gmail.com</p>
+                         <p><strong>Teléfono:</strong> 098 456 7890</p>
+                         <p><strong>Web:</strong> <a href="https://museosanfranciscodequito.com/" target="_blank">https://museosanfranciscodequito.com/</a></p>
+                         </div>
                   </div>
               </div>
 

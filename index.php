@@ -31,8 +31,18 @@
 </div>
 <div class="col-sm-5 col-md-4">
 <h3>Audio Tours EC</h3>
+
+
 <p>Audio Tours EC es una página web que ofrece audioguías detalladas para cada punto del museo en el idioma que elijas, permitiéndote vivir un recorrido único.</p>
+<br>
+<h3>¿Quienes son nuestros clientes?</h3>
+<p>Nos enfocamos en turistas y visitantes interesados en enriquecer su experiencia en museos con audioguías personalizadas. Nuestro servicio está diseñado para todos aquellos que desean una guía detallada y en el idioma de su preferencia, haciendo que cada visita sea más informativa y envolvente.</p>
+
 </div>
+</div>  
+</div>
+<div class="col-sm-5 col-md-4">
+    </div>
 </div>  
 </div>
 </div>
