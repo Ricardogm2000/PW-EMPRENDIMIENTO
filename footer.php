@@ -21,11 +21,11 @@
                     </ul>
                 </div>
                  <div class="col-sm-4 subscribe">
-                    <h4>Subscription</h4>
+                    <h4>Subscríbete</h4>
                     <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Enter email id here">
+                    <input type="text" class="form-control" placeholder="Ingresa tu correo">
                     <span class="input-group-btn">
-                    <button class="btn btn-default" type="button">Get Notify</button>
+                    <button class="btn btn-default" type="button">Enviar</button>
                     </span>
                     </div>
                     <div class="social">
@@ -40,7 +40,7 @@
     <!--/.footer-bottom--> 
 </footer>
 
-<div class="text-center copyright">Powered by <a href="http://thebootstrapthemes.com">thebootstrapthemes.com</a></div>
+
 
 <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
 

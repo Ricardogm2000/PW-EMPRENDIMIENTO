@@ -4,18 +4,18 @@
     <div class="row gallery">
         <?php 
         $images = [
-            ["src" => "images/audioguias/1.png", "title" => "Foods"],
-            ["src" => "images/audioguias/2.png", "title" => "Coffee"],
-            ["src" => "images/audioguias/3.png", "title" => "Travel"],
-            ["src" => "images/audioguias/4.png", "title" => "Adventure"],
-            ["src" => "images/audioguias/5.png", "title" => "Fruits"],
-            ["src" => "images/audioguias/6.png", "title" => "Summer"],
-            ["src" => "images/audioguias/7.png", "title" => "Bathroom"],
-            ["src" => "images/audioguias/8.png", "title" => "Rooms"],
-            ["src" => "images/audioguias/9.png", "title" => "Big Room"],
-            ["src" => "images/audioguias/10.png", "title" => "Living Room"],
-            ["src" => "images/audioguias/11.png", "title" => "Fruits"],
-            ["src" => "images/audioguias/12.png", "title" => "Travel"]
+            ["src" => "images/audioguias/1.png", "title" => "MUSEO DE CERA QUITO"],
+            ["src" => "images/audioguias/2.png", "title" => "MUSEO TEMPLO DEL SOL"],
+            ["src" => "images/audioguias/3.png", "title" => "MUSEO CASA GUAYSAMÍN"],
+            ["src" => "images/audioguias/4.png", "title" => "MUSEO DAN FRANCISCO"],
+            ["src" => "images/audioguias/5.png", "title" => "MUSEO NACIONAL DEL ECUADOR"],
+            ["src" => "images/audioguias/6.png", "title" => "MUSEO MANUELA SAENZ"],
+            ["src" => "images/audioguias/7.png", "title" => "MUSEO CASA DE SUCRE"],
+            ["src" => "images/audioguias/8.png", "title" => "MUSEO DE LA MONEDA"],
+            ["src" => "images/audioguias/9.png", "title" => "MUSEO MUNICIPAL DE GUAYAQUIL"],
+            ["src" => "images/audioguias/10.png", "title" => "MUSEO CIMA DE LA LIBERTAD"],
+            ["src" => "images/audioguias/11.png", "title" => "MUSEO DEL BANCO CENTRAL"],
+            ["src" => "images/audioguias/12.png", "title" => "MUSEO DE SITIO TULIPE"]
         ];
 
         foreach($images as $index => $image) {
@@ -35,7 +35,7 @@
 <div id="modal" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Aquí va la información que quieres mostrar en la ventana flotante.</p>
+        <p>INFORMACION DEL AUDIO GUÍA.</p>
     </div>
 </div>
 

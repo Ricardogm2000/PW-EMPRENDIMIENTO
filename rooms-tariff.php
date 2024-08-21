@@ -8,9 +8,9 @@
 <div class="row">
   <div class="col-sm-6 wowload fadeInUp">
     <div class="rooms">
-      <img src="images/photos/vision.jpeg" class="img-responsive img-long">
+      <img src="images/photos/vision.png" class="img-responsive img-long">
       <div class="info">
-        <h3>Nuestra Visión</h3>
+        <h3>Visión</h3>
         <p>
           Ser la plataforma líder en Ecuador para el año 2040, que enriquezca la experiencia cultural
           de sus usuarios nacionales e internacionales, facilitando el acceso a información relevante
@@ -24,7 +24,7 @@
     <div class="rooms">
       <img src="images/photos/mision.png" class="img-responsive img-long">
       <div class="info">
-        <h3>Nuestra Misión</h3>
+        <h3>Misión</h3>
         <p>
           Ofrecer una plataforma accesible y fácil de usar que permita a los residentes,
           turistas extranjeros y nacionales descubrir y disfrutar de la riqueza cultural de Ecuador. 

@@ -48,16 +48,16 @@
             <!-- RoomCarousel -->
             <div id="RoomCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="item active"><img src="images/photos/Audio.jpg" class="img-responsive" alt="slide"></div>                
-                <div class="item  height-full"><img src="images/photos/Audio.jpg"  class="img-responsive" alt="slide"></div>
-                <div class="item  height-full"><img src="images/photos/Audio.jpg"  class="img-responsive" alt="slide"></div>
+                <div class="item active"><img src="images/audioguias/1.png" width="15"  class="img-responsive" alt="slide"></div>                
+                <div class="item  height-full"><img src="images/audioguias/2.png"  class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/audioguias/3.png"  class="img-responsive" alt="slide"></div>
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#RoomCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
                 <a class="right carousel-control" href="#RoomCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
             </div>
             <!-- audio guias-->
-            <div class="caption">Audioguías<a href="rooms-tariff.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+            <div class="caption">Audioguías<a href="gallery.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
         </div>
 
 
@@ -74,7 +74,7 @@
                 <a class="right carousel-control" href="#TourCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
             </div>
             <!-- RoomCarousel-->
-            <div class="caption">Museos Asociados<a href="gallery.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+            <div class="caption">Museos Asociados<a href="introduction.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
         </div>
 
 
@@ -91,7 +91,7 @@
                 <a class="right carousel-control" href="#FoodCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
             </div>
             <!-- RoomCarousel-->
-            <div class="caption">Idiomas<a href="gallery.php" class="pull-right"><i class="fa fa-edit"></i></a></div>
+            <div class="caption">Idiomas<a  class="pull-right"><i class="fa fa-edit"></i></a></div>
         </div>
     </div>
 </div>
