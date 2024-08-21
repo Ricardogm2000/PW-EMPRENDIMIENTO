@@ -48,7 +48,7 @@ if(isset($_GET['remove'])) {
                 <label><input type="radio" name="payment_method" value="transferencia"> Transferencia</label><br>
                 <label><input type="radio" name="payment_method" value="deuna"> DeUna</label>
             </div>
-            <h4>Total: $0.00</h4> <!-- Aún no se manejan precios -->
+            <h4>Total: $12.00</h4> <!-- Aún no se manejan precios -->
             <button id="buy-button" class="btn btn-primary">Comprar</button>
 
         </div>
