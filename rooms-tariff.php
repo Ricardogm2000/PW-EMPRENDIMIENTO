@@ -37,7 +37,7 @@
   </div>
   <div class="col-sm-6 wowload fadeInUp">
     <div class="rooms">
-      <img src="images/photos/profesionales.jpg" class="img-responsive img-long">
+      <img src="images/photos/profesionales.png" class="img-responsive img-long">
       <div class="info">
         <h3>Equipo Profesional</h3>
         <p>Contamos con un equipo altamente capacitado y comprometido con la excelencia. Nos especializamos en crear audioguías innovadoras y educativas para museos, proporcionando a los visitantes una experiencia enriquecedora y memorable.</p>
