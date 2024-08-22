@@ -1,26 +1,25 @@
 <?php
-session_start();
+$data = json_decode(file_get_contents('php://input'), true);
+$id = $data['id'];
+$title = $data['title'];
 
-$product = json_decode(file_get_contents('php://input'), true);
+// Leer el archivo JSON existente
+$cart = json_decode(file_get_contents('bd/cart.json'), true);
 
-if(!isset($_SESSION['cart'])) {
-    $_SESSION['cart'] = [];
-}
-
-// Verificar si el producto ya está en el carrito
-$exists = false;
-foreach($_SESSION['cart'] as $item) {
-    if($item['src'] == $product['src']) {
-        $exists = true;
-        break;
+// Verificar si la sala ya está en el carrito
+foreach ($cart as $item) {
+    if ($item['id'] == $id) {
+        echo json_encode(['success' => false, 'message' => 'La sala ya está en el carrito']);
+        exit;
     }
 }
 
-// Si no existe, añadirlo al carrito
-if(!$exists) {
-    $_SESSION['cart'][] = $product;
-}
+// Agregar la nueva sala al carrito
+$cart[] = ['id' => $id, 'title' => $title];
 
-header('Content-Type: application/json');
-echo json_encode(['status' => 'success', 'message' => 'Producto añadido al carrito']);
+// Guardar el archivo JSON actualizado
+file_put_contents('bd/cart.json', json_encode($cart));
+
+// Devolver una respuesta
+echo json_encode(['success' => true, 'cartCount' => count($cart)]);
 ?>

@@ -15,7 +15,7 @@
                     <ul class="list-unstyled">
                         <li><a href="index.php">Inicio</a></li>        
                         <li><a href="introduction.php">¿Quiénes Somos?</a></li>
-                        <li><a href="gallery.php">Aliados Estratégicos</a></li>
+                        <li><a href="audioguias.php">Aliados Estratégicos</a></li>
                         <li><a href="tour.php">Audioguías</a></li>
                         <li><a href="contact.php">Contacto</a></li>
                     </ul>
