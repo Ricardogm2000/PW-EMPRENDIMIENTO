@@ -45,6 +45,74 @@
 
 <?php include 'footer.php';?>
 
+<!-- Estilos personalizados -->
+<style>
+    /* Estilo para el modal */
+    #audioModal {
+        display: none; /* Oculto por defecto */
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+    }
+
+    /* Estilo para el contenido del modal */
+    .modal-content {
+        background-color: #73726c;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 600px; /* Máximo ancho */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+        border-radius: 8px; /* Bordes redondeados */
+    }
+
+    /* Estilo para el botón de cerrar */
+    .close {
+        color: #f8f8f8;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* Estilo para el reproductor de audio */
+    #audioPlayer {
+        width: 100%;
+        margin-top: 20px;
+        outline: none;
+        background-color: #73726c; /* Color de fondo del reproductor de audio */
+    }
+
+    /* Personalización de los controles del reproductor */
+    #audioPlayer::-webkit-media-controls-panel {
+        background-color: #bfa145; /* Fondo de los controles */
+    }
+
+    #audioPlayer::-webkit-media-controls-play-button,
+    #audioPlayer::-webkit-media-controls-volume-slider {
+        filter: invert(0); /* Invertir colores para mayor contraste */
+    }
+
+    /* Estilo adicional para dispositivos móviles */
+    @media screen and (max-width: 600px) {
+        .modal-content {
+            width: 90%;
+        }
+    }
+</style>
+
 <!-- Script para manejar el carrito y calcular el subtotal e IVA -->
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {

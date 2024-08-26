@@ -64,7 +64,8 @@
         <div class="col-md-4">
             <div id="museum-info" class="museum-info">
                 <h2>Información del Museo</h2>
-                <p>Pasa el mouse sobre una imagen para ver la información del museo aquí.</p>
+                <p>Aquí tienes el texto corregido:
+                <p>Coloca el mouse sobre una imagen para ver la información del museo.</p>
             </div>
         </div>
     </div>
