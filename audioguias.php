@@ -35,7 +35,7 @@
                         a lo largo de los siglos. Los visitantes pueden disfrutar de su impresionante arquitectura, 
                         así como de exposiciones temporales que destacan el arte contemporáneo ecuatoriano. Sin duda, 
                         es un lugar esencial para entender la herencia cultural del Ecuador.",
-                        "link" => "museoguaysamin.php"],
+                        "link" => "museosanfrancisco.php"],
 
                         ["src" => "images/Museos/Cera.png", "title" => "MUSEO CAMILO EGAS", "info" => "El Museo Camilo 
                         Egas, ubicado en Quito, Ecuador, es un espacio dedicado a la vida y obra del destacado artista 

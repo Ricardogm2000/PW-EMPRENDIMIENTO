@@ -138,26 +138,19 @@
     <!-- header -->
 
     <script>
-    document.addEventListener('DOMContentLoaded', (event) => {
-        // Inicializa el contador del carrito desde localStorage
-        let cartCount = parseInt(localStorage.getItem('cartCount')) || 0;
+document.addEventListener('DOMContentLoaded', (event) => {
+    let cartCount = parseInt(localStorage.getItem('cartCount')) || 0;
+    updateCartCount(cartCount);
+});
 
-        // Función para actualizar el contador del carrito
-        function updateCartCount(newCount) {
-            cartCount = newCount;
-            const cartCountElement = document.getElementById('cart-count');
-            if (cartCountElement) {
-                cartCountElement.textContent = cartCount;
-
-                // Añade animación para el contador
-                cartCountElement.classList.add('animate');
-                setTimeout(() => {
-                    cartCountElement.classList.remove('animate');
-                }, 1000); // Duración de la animación
-            }
-        }
-
-        // Inicializa el contador en el encabezado
-        updateCartCount(cartCount);
-    });
-    </script>
+function updateCartCount(newCount) {
+    const cartCountElement = document.getElementById('cart-count');
+    if (cartCountElement) {
+        cartCountElement.textContent = newCount;
+        cartCountElement.classList.add('animate');
+        setTimeout(() => {
+            cartCountElement.classList.remove('animate');
+        }, 1000); // Duración de la animación
+    }
+}
+</script>

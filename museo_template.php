@@ -6,6 +6,7 @@
         <div class="col-md-12">
             <div class="row gallery">
                 <?php 
+                    $pricePerGuide = 5; // Precio de cada audioguía
                     foreach($rooms as $room) {
                         echo '<div class="col-sm-6 col-md-3 wowload fadeInUp gallery-item">';
                         echo '<div class="gallery-image-container">';
@@ -13,7 +14,7 @@
                         echo '<div class="overlay">';
                         echo '<div class="overlay-content">';
                         echo '<div class="language-options">';
-                        echo '<a href="#" class="icon buy-icon" data-id="'.$room["id"].'" data-title="'.$room["title"].'"><i class="fa fa-shopping-cart"></i> Comprar</a>';
+                        echo '<a href="#" class="icon buy-icon" data-id="'.$room["id"].'" data-title="'.$room["title"].'" data-price="'.$pricePerGuide.'"><i class="fa fa-shopping-cart"></i> Comprar</a>';
                         echo '<a href="#" class="icon play-icon" data-audio="'.$room["audio_es"].'" data-id="'.$room["id"].'" style="display:none;"><i class="fa fa-play"></i> Español</a>';
                         echo '<a href="#" class="icon play-icon" data-audio="'.$room["audio_ru"].'" data-id="'.$room["id"].'" style="display:none;"><i class="fa fa-play"></i> Русский</a>';
                         echo '</div>';
@@ -22,6 +23,7 @@
                         echo '</div>';
                         echo '<div class="gallery-title">'.$room["title"].'</div>';
                         echo '<p>'.$room["info"].'</p>';
+                        echo '<p>Precio: $' . $pricePerGuide . '</p>'; // Mostrar el precio
                         echo '</div>';
                     }
                 ?>
@@ -43,6 +45,7 @@
 
 <?php include 'footer.php';?>
 
+<!-- Script para manejar el carrito y calcular el subtotal e IVA -->
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
     var modal = document.getElementById("audioModal");
@@ -52,6 +55,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     var buyIcons = document.querySelectorAll(".buy-icon");
     var span = document.getElementsByClassName("close")[0];
     var cartCount = document.getElementById("cart-count");
+    var subtotalElement = document.getElementById("subtotal");
+    var ivaElement = document.getElementById("iva");
+    var totalElement = document.getElementById("total");
 
     // Obtener el estado de las compras desde el archivo JSON
     function loadPurchases() {
@@ -74,7 +80,27 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         buyIcon.style.display = 'none';
                     });
                 });
+
+                // Calcular y mostrar subtotal, IVA y total
+                calculateTotals(data.purchases);
             });
+    }
+
+    function calculateTotals(purchases) {
+        const pricePerGuide = 5;
+        let subtotal = purchases.length * pricePerGuide;
+        let iva = subtotal * 0.12;
+        let total = subtotal + iva;
+
+        if (subtotalElement) {
+            subtotalElement.textContent = '$' + subtotal.toFixed(2);
+        }
+        if (ivaElement) {
+            ivaElement.textContent = '$' + iva.toFixed(2);
+        }
+        if (totalElement) {
+            totalElement.textContent = '$' + total.toFixed(2);
+        }
     }
 
     loadPurchases();
@@ -85,6 +111,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             event.preventDefault();
             var id = icon.getAttribute('data-id');
             var title = icon.getAttribute('data-title');
+            var price = parseFloat(icon.getAttribute('data-price'));
             alert('Sala ' + title + ' agregada al carrito.');
 
             // Actualizar el archivo JSON
@@ -93,13 +120,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ id: id, title: title })
+                body: JSON.stringify({ id: id, title: title, price: price })
             })
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
                     icon.style.display = 'none';
                     cartCount.innerText = data.cartCount;
+                    localStorage.setItem('cartCount', data.cartCount); // Actualizar localStorage
                     loadPurchases(); // Volver a cargar las compras después de agregar al carrito
                 } else {
                     alert(data.message);

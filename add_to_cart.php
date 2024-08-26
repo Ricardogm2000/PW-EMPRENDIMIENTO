@@ -1,25 +1,20 @@
 <?php
 $data = json_decode(file_get_contents('php://input'), true);
+
 $id = $data['id'];
 $title = $data['title'];
+$price = $data['price']; // Precio recibido
 
-// Leer el archivo JSON existente
-$cart = json_decode(file_get_contents('bd/cart.json'), true);
+$cartFile = 'bd/cart.json';
+$cart = json_decode(file_get_contents($cartFile), true);
 
-// Verificar si la sala ya está en el carrito
-foreach ($cart as $item) {
-    if ($item['id'] == $id) {
-        echo json_encode(['success' => false, 'message' => 'La sala ya está en el carrito']);
-        exit;
-    }
-}
+// Agregar nuevo ítem al carrito
+$cart[] = array('id' => $id, 'title' => $title, 'price' => $price);
+file_put_contents($cartFile, json_encode($cart));
 
-// Agregar la nueva sala al carrito
-$cart[] = ['id' => $id, 'title' => $title];
+// Contar el número de productos en el carrito
+$cartCount = count($cart);
 
-// Guardar el archivo JSON actualizado
-file_put_contents('bd/cart.json', json_encode($cart));
-
-// Devolver una respuesta
-echo json_encode(['success' => true, 'cartCount' => count($cart)]);
+// Enviar la respuesta
+echo json_encode(array('success' => true, 'cartCount' => $cartCount));
 ?>
