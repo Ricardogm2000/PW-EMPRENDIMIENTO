@@ -25,6 +25,7 @@
                          y el aprendizaje sobre la herencia cultural arequipeña.",
                         "link" => "museocarmen.php"],
 
+                        
                         ["src" => "images/Museos/Francisco.png", "title" => "MUSEO SAN FRANCISO", "info" => 
                         "El Museo de San Francisco, ubicado en Quito, Ecuador, es uno de los museos más importantes 
                         del país y un destacado ejemplo de la arquitectura colonial. Este museo se encuentra en el 
@@ -36,11 +37,11 @@
                         es un lugar esencial para entender la herencia cultural del Ecuador.",
                         "link" => "museoguaysamin.php"],
 
-                        ["src" => "images/Museos/Cera.png", "title" => "MUSEO DE CERA", "info" => "El Museo de Cera de Quito es una atracción única que ofrece 
-                        a los visitantes una experiencia fascinante a través de figuras de cera que representan a diversas personalidades históricas, 
-                        culturales y contemporáneas. Ubicado en el corazón de la ciudad, el museo destaca por su cuidadosa elaboración de las estatuas, 
-                        que permiten a los visitantes interactuar con la historia de Ecuador y el mundo. Además, el ambiente del museo es acogedor, lo que 
-                        lo convierte en un lugar ideal para familias y turistas que buscan aprender y divertirse al mismo tiempo.",
+                        ["src" => "images/Museos/Cera.png", "title" => "MUSEO CAMILO EGAS", "info" => "El Museo Camilo 
+                        Egas, ubicado en Quito, Ecuador, es un espacio dedicado a la vida y obra del destacado artista 
+                        ecuatoriano Camilo Egas. Este museo alberga una valiosa colección de sus pinturas y documentos, 
+                        promoviendo así el aprecio por su legado artístico y la identidad cultural del país. Además, 
+                        organiza exposiciones temporales y actividades culturales que enriquecen la experiencia de los visitantes.",
                         "link" => "museocera.php"],
                     ];
 
